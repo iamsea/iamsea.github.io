@@ -271,7 +271,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/11/21/hexo-domain/" itemprop="url">hexo-domain</a></h1>
+                <a class="post-title-link" href="/2017/11/21/hexo-domain/" itemprop="url">Hexo博客域名配置与DNS分流</a></h1>
         
 
         <div class="post-meta">
@@ -293,6 +293,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/hexo/" itemprop="url" rel="index">
+                    <span itemprop="name">hexo</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -323,7 +345,15 @@
       
         
           
-            
+            <h2 id="域名配置"><a href="#域名配置" class="headerlink" title="域名配置"></a>域名配置</h2><p>把访问域名git_name.github.io替换成自己的域名。</p>
+<h3 id="申请个人域名"><a href="#申请个人域名" class="headerlink" title="申请个人域名"></a>申请个人域名</h3><p>我是在<a href="https://wanwang.aliyun.com/" target="_blank" rel="external">万网</a>申请的，需要进行备案，因为是学习用的，所以申请了.top的域名，首年只要两块钱就可以搞定。</p>
+<h3 id="添加DNS解析"><a href="#添加DNS解析" class="headerlink" title="添加DNS解析"></a>添加DNS解析</h3><ol>
+<li>ping初始域名。比如我的Gighub Hexo博客域名为iamsea.github.io<br><img src="http://upload-images.jianshu.io/upload_images/2569188-da68b131de363334.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="get_ip.png"></li>
+<li>进入域名解析设置，添加两条解析，记录值为ping指向的ip<br><img src="http://upload-images.jianshu.io/upload_images/2569188-f7ad2ef37ddbf8a3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="domain_set.png"><h3 id="添加CNAME文件"><a href="#添加CNAME文件" class="headerlink" title="添加CNAME文件"></a>添加CNAME文件</h3>进入Github的博客项目的设置项，修改Custom domain并保存，即会自动生成CNAME文件<br><img src="http://upload-images.jianshu.io/upload_images/2569188-9ff0b6695d01a7bd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="custom_domain.png"></li>
+</ol>
+<p>配置完成。</p>
+<h2 id="DNS分流"><a href="#DNS分流" class="headerlink" title="DNS分流"></a>DNS分流</h2><p>加速博客访问速度</p>
+
           
         
       
@@ -1184,7 +1214,7 @@ three apples changed the world.the first one seduced eve.the second one awakened
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
