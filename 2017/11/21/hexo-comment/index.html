@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="见过我家那只可爱的宠物吗">
+<meta name="description" content="本教程基于hexo博客next主题 注册 OAuth Application点击此处 来注册一个新的 OAuth Application。其他内容可以随意填写，但要确保填入正确的 callback URL（一般是博客的域名，如Hexo博客部署到Github, 生成域名http://iamsea.github.io, 最终解析到http://iamsea.top，则此时应该填入的是http://ia">
 <meta name="keywords" content="Hexo添加Gitment">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo添加Gitment评论系统">
 <meta property="og:url" content="http://yoursite.com/2017/11/21/hexo-comment/index.html">
 <meta property="og:site_name" content="王者峡谷">
-<meta property="og:description" content="见过我家那只可爱的宠物吗">
+<meta property="og:description" content="本教程基于hexo博客next主题 注册 OAuth Application点击此处 来注册一个新的 OAuth Application。其他内容可以随意填写，但要确保填入正确的 callback URL（一般是博客的域名，如Hexo博客部署到Github, 生成域名http://iamsea.github.io, 最终解析到http://iamsea.top，则此时应该填入的是http://ia">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-11-21T13:42:12.959Z">
+<meta property="og:updated_time" content="2017-11-21T14:20:00.609Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo添加Gitment评论系统">
-<meta name="twitter:description" content="见过我家那只可爱的宠物吗">
+<meta name="twitter:description" content="本教程基于hexo博客next主题 注册 OAuth Application点击此处 来注册一个新的 OAuth Application。其他内容可以随意填写，但要确保填入正确的 callback URL（一般是博客的域名，如Hexo博客部署到Github, 生成域名http://iamsea.github.io, 最终解析到http://iamsea.top，则此时应该填入的是http://ia">
 
 
 
@@ -362,7 +362,19 @@
       
 
       
-        
+        <p>本教程基于hexo博客next主题</p>
+<h2 id="注册-OAuth-Application"><a href="#注册-OAuth-Application" class="headerlink" title="注册 OAuth Application"></a>注册 OAuth Application</h2><p><a href="https://github.com/settings/applications/new" target="_blank" rel="external">点击此处</a> 来注册一个新的 OAuth Application。其他内容可以随意填写，但要确保填入正确的 callback URL（一般是博客的域名，如Hexo博客部署到Github, 生成域名<a href="http://iamsea.github.io" target="_blank" rel="external">http://iamsea.github.io</a>, 最终解析到<a href="http://iamsea.top，则此时应该填入的是http://iamsea.top）。" target="_blank" rel="external">http://iamsea.top，则此时应该填入的是http://iamsea.top）。</a></p>
+<h2 id="引入Gitment"><a href="#引入Gitment" class="headerlink" title="引入Gitment"></a>引入Gitment</h2><ol>
+<li><p>在博客目录下执行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install --save gitment</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>打开主题配置文件_config.yml</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">gitment:</span><br><span class="line">  enable: true # 开启gitment评论系统</span><br><span class="line">  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway</span><br><span class="line">  count: true # Show comments count in post meta area</span><br><span class="line">  lazy: true # 懒加载，设置为ture时需手动展开评论</span><br><span class="line">  cleanly: false # Hide &apos;Powered by ...&apos; on footer, and more</span><br><span class="line">  language: en # 语言，置空则随主题的语言</span><br><span class="line">  github_user: iamsea # Github用户名</span><br><span class="line">  github_repo: comment # 在Github新建一个仓库用于存放评论，这是仓库名</span><br><span class="line">  client_id: a6df579b14f7da8ed99c # 注册OAuth Application时生成</span><br><span class="line">  client_secret: 1f6568974d6f3ed28055d2243d05457f7e04cfd3 # 注册OAuth Application生成 proxy_gateway, Github access secret token for the Gitment</span><br><span class="line">  proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect</span><br><span class="line">  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="初始化评论"><a href="#初始化评论" class="headerlink" title="初始化评论"></a>初始化评论</h2><p>页面发布后，你需要访问页面并使用你的 GitHub 账号登录（请确保你的账号是第二步所填 repo 的 owner），点击初始化按钮。</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://imsun.net/posts/gitment-introduction/" target="_blank" rel="external">Gitment：使用 GitHub Issues 搭建评论系统</a><br><a href="https://github.com/imsun/gitment/issues" target="_blank" rel="external">Gitment相关问题</a></p>
+
       
     </div>
     
@@ -461,8 +473,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -554,6 +575,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#注册-OAuth-Application"><span class="nav-number">1.</span> <span class="nav-text">注册 OAuth Application</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#引入Gitment"><span class="nav-number">2.</span> <span class="nav-text">引入Gitment</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#初始化评论"><span class="nav-number">3.</span> <span class="nav-text">初始化评论</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考"><span class="nav-number">4.</span> <span class="nav-text">参考</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
