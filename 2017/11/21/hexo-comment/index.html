@@ -79,19 +79,19 @@
 
 
 
-<meta name="description" content="本教程基于hexo博客next主题 注册 OAuth Application点击此处 来注册一个新的 OAuth Application。其他内容可以随意填写，但要确保填入正确的 callback URL（一般是博客的域名，如Hexo博客部署到Github, 生成域名http://iamsea.github.io，最终解析到http://iamsea.top，则此时应该填入的是http://iam">
+<meta name="description" content="本教程基于hexo博客next主题。Gitment 注册 OAuth Application点击此处 来注册一个新的 OAuth Application。其他内容可以随意填写，但要确保填入正确的 callback URL（一般是博客的域名，如Hexo博客部署到Github, 生成域名http://iamsea.github.io，最终解析到http://iamsea.top，则此时应该填入的是ht">
 <meta name="keywords" content="Hexo添加Gitment">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo添加Gitment评论系统">
 <meta property="og:url" content="http://yoursite.com/2017/11/21/hexo-comment/index.html">
 <meta property="og:site_name" content="王者峡谷">
-<meta property="og:description" content="本教程基于hexo博客next主题 注册 OAuth Application点击此处 来注册一个新的 OAuth Application。其他内容可以随意填写，但要确保填入正确的 callback URL（一般是博客的域名，如Hexo博客部署到Github, 生成域名http://iamsea.github.io，最终解析到http://iamsea.top，则此时应该填入的是http://iam">
+<meta property="og:description" content="本教程基于hexo博客next主题。Gitment 注册 OAuth Application点击此处 来注册一个新的 OAuth Application。其他内容可以随意填写，但要确保填入正确的 callback URL（一般是博客的域名，如Hexo博客部署到Github, 生成域名http://iamsea.github.io，最终解析到http://iamsea.top，则此时应该填入的是ht">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2569188-badee872d96878bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2017-11-22T01:51:50.203Z">
+<meta property="og:updated_time" content="2017-11-22T02:05:48.795Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo添加Gitment评论系统">
-<meta name="twitter:description" content="本教程基于hexo博客next主题 注册 OAuth Application点击此处 来注册一个新的 OAuth Application。其他内容可以随意填写，但要确保填入正确的 callback URL（一般是博客的域名，如Hexo博客部署到Github, 生成域名http://iamsea.github.io，最终解析到http://iamsea.top，则此时应该填入的是http://iam">
+<meta name="twitter:description" content="本教程基于hexo博客next主题。Gitment 注册 OAuth Application点击此处 来注册一个新的 OAuth Application。其他内容可以随意填写，但要确保填入正确的 callback URL（一般是博客的域名，如Hexo博客部署到Github, 生成域名http://iamsea.github.io，最终解析到http://iamsea.top，则此时应该填入的是ht">
 <meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/2569188-badee872d96878bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 
 
@@ -330,9 +330,30 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/11/21/hexo-comment/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count gitment-comments-count" data-xid="/2017/11/21/hexo-comment/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
           
 
           
+          
+             <span id="/2017/11/21/hexo-comment/" class="leancloud_visitors" data-flag-title="Hexo添加Gitment评论系统">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -354,7 +375,7 @@
       
 
       
-        <p>本教程基于hexo博客next主题</p>
+        <p>本教程基于hexo博客next主题。<a href="https://github.com/imsun/gitment" target="_blank" rel="external">Gitment</a></p>
 <h2 id="注册-OAuth-Application"><a href="#注册-OAuth-Application" class="headerlink" title="注册 OAuth Application"></a>注册 OAuth Application</h2><p><a href="https://github.com/settings/applications/new" target="_blank" rel="external">点击此处</a> 来注册一个新的 OAuth Application。其他内容可以随意填写，但要确保填入正确的 <code>callback URL</code>（一般是博客的域名，如Hexo博客部署到Github, 生成域名<code>http://iamsea.github.io</code>，最终解析到<code>http://iamsea.top</code>，则此时应该填入的是<code>http://iamsea.top</code>），注册成功后生成<code>client_id</code>及<code>client_secret</code>。<br><img src="http://upload-images.jianshu.io/upload_images/2569188-badee872d96878bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="oauth_application.png"></p>
 <h2 id="引入Gitment"><a href="#引入Gitment" class="headerlink" title="引入Gitment"></a>引入Gitment</h2><p>在博客目录下执行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install --save gitment</span><br></pre></td></tr></table></figure></p>
 <p>打开主题配置文件_config.yml<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">gitment:</span><br><span class="line">  enable: true # 是否开启gitment评论系统</span><br><span class="line">  mint: true #</span><br><span class="line">  count: true # 是否显示评论数</span><br><span class="line">  lazy: true # 懒加载，设置为ture时需手动展开评论</span><br><span class="line">  cleanly: true # 是否隐藏&apos;Powered by ...&apos;</span><br><span class="line">  language: en # 语言，置空则随主题的语言</span><br><span class="line">  github_user: iamsea # Github用户名</span><br><span class="line">  github_repo: comment # 在Github新建一个仓库用于存放评论，这是仓库名</span><br><span class="line">  client_id: a6df579b14f7da8ed99c # 注册OAuth Application时生成</span><br><span class="line">  client_secret: 1f6568974d6f3ed28055d2243d05457f7e04cfd3 # 注册OAuth Application时生成</span><br><span class="line">  proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect</span><br><span class="line">  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled</span><br></pre></td></tr></table></figure></p>
@@ -760,8 +781,8 @@
 <!-- LOCAL: You can save these files to your site and update links -->
     
         
-        <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-        <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
+        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
     
 <!-- END LOCAL -->
 
@@ -775,10 +796,12 @@
     
       <script type="text/javascript">
       function renderGitment(){
-        var gitment = new Gitment({
+        var gitment = new Gitmint({
             id: window.location.pathname, 
             owner: 'iamsea',
             repo: 'comment',
+            
+            lang: "en" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
             
             oauth: {
             
@@ -815,6 +838,113 @@
 
 
   
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("xmsUqIt0jAUc2FwqrzQVzXUw-gzGzoHsz", "YDQ1YdayCJzQoyodn82nbcM4");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
 
   
 
