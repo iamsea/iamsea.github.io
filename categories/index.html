@@ -88,7 +88,7 @@
 <meta property="og:site_name" content="王者峡谷">
 <meta property="og:description" content="见过我家那只可爱的宠物吗">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-11-20T13:52:15.851Z">
+<meta property="og:updated_time" content="2017-11-22T10:40:44.152Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="分类">
 <meta name="twitter:description" content="见过我家那只可爱的宠物吗">
@@ -294,18 +294,6 @@
 
 
           
-
-  
-    <div class="comments" id="comments">
-      
-        <div onclick="showGitment()" id="gitment-display-button">显示 Gitment 评论</div>
-        <div id="gitment-container" style="display:none"></div>
-      
-    </div>
-
-  
-
-
 
 
         </div>
@@ -622,34 +610,6 @@
       </style>
     
 
-    
-      <script type="text/javascript">
-      function renderGitment(){
-        var gitment = new Gitmint({
-            id: window.location.pathname, 
-            owner: 'iamsea',
-            repo: 'comment',
-            
-            lang: "en" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
-            
-            oauth: {
-            
-            
-                client_secret: '1f6568974d6f3ed28055d2243d05457f7e04cfd3',
-            
-                client_id: 'a6df579b14f7da8ed99c'
-            }});
-        gitment.render('gitment-container');
-      }
-
-      
-      function showGitment(){
-        document.getElementById("gitment-display-button").style.display = "none";
-        document.getElementById("gitment-container").style.display = "block";
-        renderGitment();
-      }
-      
-      </script>
     
 
 
