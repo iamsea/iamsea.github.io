@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>王者峡谷</title>
+  <title>sea&#39;s blog</title>
   
-  
+  <subtitle>设计是一个绝妙的事</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
@@ -10,7 +10,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>Lunar</name>
+    <name>iamsea</name>
     
   </author>
   
