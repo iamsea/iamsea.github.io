@@ -81,13 +81,13 @@
 
 
 
-<meta name="description" content="前言这段时间用Hexo框架搭建了个博客，并部署到了Github，然后重定向到自己的域名，至此网站使用的是http。那么问题来了，如何启动网站的https？ 工具CloudflareCloudflare以向客户提供网站安全管理、性能优化及相关的技术支持为主要业务。我们这里使用全站Cloudflare的免费SSL证书实现全站SSL加密（即https）访问 创建Cloudflare账户并添加网站添加站点">
+<meta name="description" content="前言这段时间用Hexo框架搭建了个博客，并部署到了Github，然后重定向到自己的域名，至此网站使用的是http。那么问题来了，如何启动网站的https？ 工具CloudflareCloudflare以向客户提供网站安全管理、性能优化及相关的技术支持为主要业务。我们这里使用全站Cloudflare的免费SSL证书实现全站SSL加密（即https）访问。 创建Cloudflare账户并添加网站注册并">
 <meta name="keywords" content="Cloudflare,Hexo站点https">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Cloudflare 免费SSL证书使用">
 <meta property="og:url" content="http://yoursite.com/2017/11/28/ssl-https/index.html">
 <meta property="og:site_name" content="Sea&#39;s blog">
-<meta property="og:description" content="前言这段时间用Hexo框架搭建了个博客，并部署到了Github，然后重定向到自己的域名，至此网站使用的是http。那么问题来了，如何启动网站的https？ 工具CloudflareCloudflare以向客户提供网站安全管理、性能优化及相关的技术支持为主要业务。我们这里使用全站Cloudflare的免费SSL证书实现全站SSL加密（即https）访问 创建Cloudflare账户并添加网站添加站点">
+<meta property="og:description" content="前言这段时间用Hexo框架搭建了个博客，并部署到了Github，然后重定向到自己的域名，至此网站使用的是http。那么问题来了，如何启动网站的https？ 工具CloudflareCloudflare以向客户提供网站安全管理、性能优化及相关的技术支持为主要业务。我们这里使用全站Cloudflare的免费SSL证书实现全站SSL加密（即https）访问。 创建Cloudflare账户并添加网站注册并">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2569188-82d3ab95381fdca4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2569188-022250c87a763b53.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
@@ -100,10 +100,10 @@
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2569188-b75304909b8bee44.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2569188-e82d8d3353d1cfb8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2569188-e55cd81b7d1c9099.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2017-11-28T09:46:43.595Z">
+<meta property="og:updated_time" content="2017-11-28T09:48:35.259Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Cloudflare 免费SSL证书使用">
-<meta name="twitter:description" content="前言这段时间用Hexo框架搭建了个博客，并部署到了Github，然后重定向到自己的域名，至此网站使用的是http。那么问题来了，如何启动网站的https？ 工具CloudflareCloudflare以向客户提供网站安全管理、性能优化及相关的技术支持为主要业务。我们这里使用全站Cloudflare的免费SSL证书实现全站SSL加密（即https）访问 创建Cloudflare账户并添加网站添加站点">
+<meta name="twitter:description" content="前言这段时间用Hexo框架搭建了个博客，并部署到了Github，然后重定向到自己的域名，至此网站使用的是http。那么问题来了，如何启动网站的https？ 工具CloudflareCloudflare以向客户提供网站安全管理、性能优化及相关的技术支持为主要业务。我们这里使用全站Cloudflare的免费SSL证书实现全站SSL加密（即https）访问。 创建Cloudflare账户并添加网站注册并">
 <meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/2569188-82d3ab95381fdca4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 
 
@@ -377,8 +377,8 @@
 
       
         <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这段时间用Hexo框架搭建了个博客，并部署到了Github，然后重定向到自己的域名，至此网站使用的是http。那么问题来了，如何启动网站的https？</p>
-<h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><p><a href="https://www.cloudflare.com/" target="_blank" rel="external">Cloudflare</a><br>Cloudflare以向客户提供网站安全管理、性能优化及相关的技术支持为主要业务。我们这里使用全站Cloudflare的免费SSL证书实现全站SSL加密（即https）访问</p>
-<h2 id="创建Cloudflare账户并添加网站"><a href="#创建Cloudflare账户并添加网站" class="headerlink" title="创建Cloudflare账户并添加网站"></a>创建Cloudflare账户并添加网站</h2><p><a href="https://www.cloudflare.com/a/sign-up" target="_blank" rel="external">添加站点</a>并登录后，输入你的网站进行扫描。<br><img src="http://upload-images.jianshu.io/upload_images/2569188-82d3ab95381fdca4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><p><a href="https://www.cloudflare.com/" target="_blank" rel="external">Cloudflare</a><br>Cloudflare以向客户提供网站安全管理、性能优化及相关的技术支持为主要业务。我们这里使用全站Cloudflare的免费SSL证书实现全站SSL加密（即https）访问。</p>
+<h2 id="创建Cloudflare账户并添加网站"><a href="#创建Cloudflare账户并添加网站" class="headerlink" title="创建Cloudflare账户并添加网站"></a>创建Cloudflare账户并添加网站</h2><p><a href="https://www.cloudflare.com/a/sign-up" target="_blank" rel="external">注册</a>并登录后，输入你的网站进行扫描域名解析。<br><img src="http://upload-images.jianshu.io/upload_images/2569188-82d3ab95381fdca4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
 <h2 id="域名解析"><a href="#域名解析" class="headerlink" title="域名解析"></a>域名解析</h2><p>如果提示没有正常扫描域名解析，则需要手动点击Add Record添加<br><img src="http://upload-images.jianshu.io/upload_images/2569188-022250c87a763b53.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="域名解析.png"></p>
 <h2 id="域名服务器"><a href="#域名服务器" class="headerlink" title="域名服务器"></a>域名服务器</h2><p>选择免费服务后会得到两个域名服务器<br><img src="http://upload-images.jianshu.io/upload_images/2569188-9ef1318e701642ba.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="免费服务.png"><br><img src="http://upload-images.jianshu.io/upload_images/2569188-23104c1e67e514f4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="DNS.png"></p>
 <h2 id="修改所使用域名的DNS"><a href="#修改所使用域名的DNS" class="headerlink" title="修改所使用域名的DNS"></a>修改所使用域名的DNS</h2><p>我这里使用的是阿里<a href="https://wanwang.aliyun.com/" target="_blank" rel="external">万网</a>的域名，进入域名管理进行DNS修改就可以了<br><img src="http://upload-images.jianshu.io/upload_images/2569188-c53b1e4cf7f3d75d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="域名DNS.png"></p>
