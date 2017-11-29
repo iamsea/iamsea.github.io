@@ -37,11 +37,11 @@
       <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
     
     
+      <category term="网络" scheme="http://yoursite.com/tags/%E7%BD%91%E7%BB%9C/"/>
+    
       <category term="Cloudflare" scheme="http://yoursite.com/tags/Cloudflare/"/>
     
       <category term="Hexo站点https" scheme="http://yoursite.com/tags/Hexo%E7%AB%99%E7%82%B9https/"/>
-    
-      <category term="网络" scheme="http://yoursite.com/tags/%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
