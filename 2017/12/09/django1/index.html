@@ -89,7 +89,7 @@
 <meta property="og:site_name" content="Sea&#39;s blog">
 <meta property="og:description" content="安装django2.0不支持python2.x，所以安装python3.6。linux安装python3:1$ sudo apt-get install python3 mac安装python3:1$ brew install python3 安装django2.01$ pip3 install django==2.0 站点初始化初始化1$ django-admin startproject my">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-09T09:18:26.917Z">
+<meta property="og:updated_time" content="2017-12-09T09:20:45.419Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="django 2.0安装与连接MySQL">
 <meta name="twitter:description" content="安装django2.0不支持python2.x，所以安装python3.6。linux安装python3:1$ sudo apt-get install python3 mac安装python3:1$ brew install python3 安装django2.01$ pip3 install django==2.0 站点初始化初始化1$ django-admin startproject my">
@@ -399,7 +399,9 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">from django.contrib import admin</span><br><span class="line">from django.urls import path</span><br><span class="line"></span><br><span class="line">from django.conf.urls import *</span><br><span class="line">from . import testdb</span><br><span class="line"></span><br><span class="line">urlpatterns = [</span><br><span class="line">    path(&apos;admin/&apos;, admin.site.urls),</span><br><span class="line">    url(r&apos;^testdb$&apos;, testdb.testdb),</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>访问 <a href="http://127.0.0.1:8000/testdb" target="_blank" rel="external">http://127.0.0.1:8000/testdb</a> 即可将数据添加到数据库。<br>注：若出现utf-8编码问题，用记事本将文件转utf-8编码格式即可。</p>
-<h3 id="删除数据"><a href="#删除数据" class="headerlink" title="删除数据"></a>删除数据</h3></li>
+</li>
+</ol>
+<h3 id="删除数据"><a href="#删除数据" class="headerlink" title="删除数据"></a>删除数据</h3><ol>
 <li><p>修改<code>mysite/mysite/testdb.py</code>文件代码：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"># -*- coding: utf-8 -*-</span><br><span class="line"></span><br><span class="line">from django.http import HttpResponse</span><br><span class="line"></span><br><span class="line">from TestModel.models import Test</span><br><span class="line"></span><br><span class="line"># 数据库操作</span><br><span class="line">def testdb(request):</span><br><span class="line">    # 删除id=1的数据</span><br><span class="line">    test1 = Test.objects.get(id=1)</span><br><span class="line">    test1.delete()</span><br><span class="line"></span><br><span class="line">    # 另外一种方式</span><br><span class="line">    # Test.objects.filter(id=1).delete()</span><br><span class="line"></span><br><span class="line">    # 删除所有数据</span><br><span class="line">    # Test.objects.all().delete()</span><br><span class="line"></span><br><span class="line">    return HttpResponse(&quot;&lt;p&gt;删除成功&lt;/p&gt;&quot;)</span><br></pre></td></tr></table></figure>
 </li>
