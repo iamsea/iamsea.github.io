@@ -81,18 +81,18 @@
 
 
 
-<meta name="description" content="安装django2.0不支持python2.x，所以安装python3.6。linux安装python3:1$ sudo apt-get install python3 mac安装python3:1$ brew install python3 安装django 2.0:1$ pip3 install django==2.0 站点初始化 初始化1$ django-admin startproject">
+<meta name="description" content="安装django2.0不支持python2.x，所以安装python3.6。linux安装python3:1$ sudo apt-get install python3 mac安装python3:1$ brew install python3 安装django 2.0:1$ pip3 install django==2.0 站点初始化1. 初始化1$ django-admin startproje">
 <meta name="keywords" content="django连接mysql">
 <meta property="og:type" content="article">
 <meta property="og:title" content="django 2.0（一）安装与连接MySQL">
 <meta property="og:url" content="http://yoursite.com/2017/12/09/django1/index.html">
 <meta property="og:site_name" content="Sea&#39;s blog">
-<meta property="og:description" content="安装django2.0不支持python2.x，所以安装python3.6。linux安装python3:1$ sudo apt-get install python3 mac安装python3:1$ brew install python3 安装django 2.0:1$ pip3 install django==2.0 站点初始化 初始化1$ django-admin startproject">
+<meta property="og:description" content="安装django2.0不支持python2.x，所以安装python3.6。linux安装python3:1$ sudo apt-get install python3 mac安装python3:1$ brew install python3 安装django 2.0:1$ pip3 install django==2.0 站点初始化1. 初始化1$ django-admin startproje">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-11T02:22:57.821Z">
+<meta property="og:updated_time" content="2017-12-11T02:30:17.756Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="django 2.0（一）安装与连接MySQL">
-<meta name="twitter:description" content="安装django2.0不支持python2.x，所以安装python3.6。linux安装python3:1$ sudo apt-get install python3 mac安装python3:1$ brew install python3 安装django 2.0:1$ pip3 install django==2.0 站点初始化 初始化1$ django-admin startproject">
+<meta name="twitter:description" content="安装django2.0不支持python2.x，所以安装python3.6。linux安装python3:1$ sudo apt-get install python3 mac安装python3:1$ brew install python3 安装django 2.0:1$ pip3 install django==2.0 站点初始化1. 初始化1$ django-admin startproje">
 
 
 
@@ -367,15 +367,9 @@
         <h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>django2.0不支持python2.x，所以安装python3.6。<br>linux安装python3:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install python3</span><br></pre></td></tr></table></figure></p>
 <p>mac安装python3:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ brew install python3</span><br></pre></td></tr></table></figure></p>
 <p>安装django 2.0:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ pip3 install django==2.0</span><br></pre></td></tr></table></figure></p>
-<h2 id="站点初始化"><a href="#站点初始化" class="headerlink" title="站点初始化"></a>站点初始化</h2><ol>
-<li>初始化<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ django-admin startproject mysite</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
+<h2 id="站点初始化"><a href="#站点初始化" class="headerlink" title="站点初始化"></a>站点初始化</h2><p><strong>1. 初始化</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ django-admin startproject mysite</span><br></pre></td></tr></table></figure></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">主要文件结构：</span><br><span class="line">mysite/</span><br><span class="line">├── db.sqlite3  # 自带数据库文件</span><br><span class="line">├── manage.py   # 项目管理文件</span><br><span class="line">└── mysite</span><br><span class="line">    ├── __init__.py    </span><br><span class="line">    ├── settings.py  # 全局设置文件</span><br><span class="line">    ├── urls.py      # 全局路由控制</span><br><span class="line">    └── wsgi.py      # 服务器部署文件</span><br></pre></td></tr></table></figure>
-<ol>
-<li>站点预览<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd mysite</span><br><span class="line">$ python3 manage.py runserver</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
+<p><strong>2. 站点预览</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd mysite</span><br><span class="line">$ python3 manage.py runserver</span><br></pre></td></tr></table></figure></p>
 <p>注：runserver后面可指定ip及端口号，如下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ python3 manage.py runserver 127.0.0.1:8000</span><br></pre></td></tr></table></figure></p>
 <h2 id="连接MySQL数据库"><a href="#连接MySQL数据库" class="headerlink" title="连接MySQL数据库"></a>连接MySQL数据库</h2><ol>
 <li>安装django与mysql的连接工具mysqlclient<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo pip3 install mysqlclient</span><br></pre></td></tr></table></figure>
