@@ -63,11 +63,11 @@
       <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
     
     
-      <category term="网络" scheme="http://yoursite.com/tags/%E7%BD%91%E7%BB%9C/"/>
-    
       <category term="Cloudflare" scheme="http://yoursite.com/tags/Cloudflare/"/>
     
       <category term="Hexo站点https" scheme="http://yoursite.com/tags/Hexo%E7%AB%99%E7%82%B9https/"/>
+    
+      <category term="网络" scheme="http://yoursite.com/tags/%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
@@ -98,31 +98,6 @@
   </entry>
   
   <entry>
-    <title>网络基础知识</title>
-    <link href="http://yoursite.com/2017/11/21/network-base/"/>
-    <id>http://yoursite.com/2017/11/21/network-base/</id>
-    <published>2017-11-21T07:08:02.000Z</published>
-    <updated>2017-12-06T06:45:14.554Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="域名等级"><a href="#域名等级" class="headerlink" title="域名等级"></a>域名等级</h2><h3 id="顶级域名"><a href="#顶级域名" class="headerlink" title="顶级域名"></a>顶级域名</h3><p>.com, .cn, .org等</p><h3 id="一级域名"><a href="#一级域名" class="headerlink" title="一级域名"></a>一级域名</h3><p>baidu.com, google.com等</p><h3 id="二级域名"><a href="#二级域名" class="headerlink" title="二级域名"></a>二级域名</h3><p>www.baidu.com, music.baidu.com, mail.google.com等。www.baidu.com是特殊的二级域名</p><h3 id="以此类推"><a href="#以此类推" class="headerlink" title="以此类推"></a>以此类推</h3><p>xxx.xxx.baidu.com是四级域名</p><p>注：一级域名在添加域名解析的时候主机记录用@表示或者置空。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;域名等级&quot;&gt;&lt;a href=&quot;#域名等级&quot; class=&quot;headerlink&quot; title=&quot;域名等级&quot;&gt;&lt;/a&gt;域名等级&lt;/h2&gt;&lt;h3 id=&quot;顶级域名&quot;&gt;&lt;a href=&quot;#顶级域名&quot; class=&quot;headerlink&quot; title=&quot;顶级域名&quot;&gt;&lt;/a
-      
-    
-    </summary>
-    
-      <category term="开发" scheme="http://yoursite.com/categories/%E5%BC%80%E5%8F%91/"/>
-    
-    
-      <category term="网络" scheme="http://yoursite.com/tags/%E7%BD%91%E7%BB%9C/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo博客（三）域名配置</title>
     <link href="http://yoursite.com/2017/11/21/hexo-domain/"/>
     <id>http://yoursite.com/2017/11/21/hexo-domain/</id>
@@ -145,32 +120,6 @@
     
     
       <category term="Hexo域名配置" scheme="http://yoursite.com/tags/Hexo%E5%9F%9F%E5%90%8D%E9%85%8D%E7%BD%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>生产力工具</title>
-    <link href="http://yoursite.com/2017/11/17/tool/"/>
-    <id>http://yoursite.com/2017/11/17/tool/</id>
-    <published>2017-11-17T09:56:11.000Z</published>
-    <updated>2017-12-06T06:45:35.890Z</updated>
-    
-    <content type="html"><![CDATA[<p>关于效率：时间有限，所以不要为别人而活。一个成熟的人内心是独立的，他能善用身边的各种人、事和物，但从不对他人产生依赖，这样的人是最富有生命力的。</p><h2 id="创造狮导航"><a href="#创造狮导航" class="headerlink" title="创造狮导航"></a><a href="http://chuangzaoshi.com" target="_blank" rel="external">创造狮导航</a></h2><p>优秀生产力工具导航推荐<br><img src="http://upload-images.jianshu.io/upload_images/2569188-6422079ab283bfb2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="chuangzaoshi.png"></p><h2 id="Vimium"><a href="#Vimium" class="headerlink" title="Vimium"></a><a href="http://vimium.github.io/" target="_blank" rel="external">Vimium</a></h2><p>Chrome 扩展。使chrome拥有类vim的使用体验。<br><img src="http://upload-images.jianshu.io/upload_images/2569188-6a5f5d4385824400.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Vimium.png"></p><h2 id="Atom"><a href="#Atom" class="headerlink" title="Atom"></a><a href="https://atom.io/" target="_blank" rel="external">Atom</a></h2><p>代码编辑器<br><img src="http://upload-images.jianshu.io/upload_images/2569188-d0576caa79abf337.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Atom.png"></p><h2 id="Everything"><a href="#Everything" class="headerlink" title="Everything"></a><a href="http://www.voidtools.com/" target="_blank" rel="external">Everything</a></h2><p>windows 文件搜索工具<br>ps: 安装后设置一个快捷键，比如ctrl+shift+f<br><img src="http://upload-images.jianshu.io/upload_images/2569188-eb77f697b050396f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Everything.png"></p><h2 id="Monaco"><a href="#Monaco" class="headerlink" title="Monaco"></a><a href="http://font.chinaz.com/929238414.htm" target="_blank" rel="external">Monaco</a></h2><p>编程字体<br><img src="http://upload-images.jianshu.io/upload_images/2569188-5aaf62d191d74877.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Monaco.png"></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;关于效率：时间有限，所以不要为别人而活。一个成熟的人内心是独立的，他能善用身边的各种人、事和物，但从不对他人产生依赖，这样的人是最富有生命力的。&lt;/p&gt;
-&lt;h2 id=&quot;创造狮导航&quot;&gt;&lt;a href=&quot;#创造狮导航&quot; class=&quot;headerlink&quot; title=&quot;创造
-      
-    
-    </summary>
-    
-      <category term="开发" scheme="http://yoursite.com/categories/%E5%BC%80%E5%8F%91/"/>
-    
-    
-      <category term="工具" scheme="http://yoursite.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
@@ -200,41 +149,11 @@
   </entry>
   
   <entry>
-    <title>乔布斯语录</title>
-    <link href="http://yoursite.com/2017/11/15/jobs/"/>
-    <id>http://yoursite.com/2017/11/15/jobs/</id>
-    <published>2017-11-15T03:56:25.000Z</published>
-    <updated>2017-12-06T06:43:35.835Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li><p>伟大的艺术品不必追随潮流，他本身就能引领潮流。</p></li><li><p>市场总是错的。</p></li><li><p>自由从何而来？从自信来，而自信则是从自律来！先学会克制自己，用严格的日程表控制生活，才能在这种自律中不断磨练出自信。自信是对事情的控制能力，如果你连最基本的时间都做控制不了，还谈什么自信？</p></li><li><p>在你生命的最初30年中，你养成习惯；在你生命的最后30年中，你的习惯决定了你。</p></li><li><p>If today were the last day of your life, would you want to do what you are about to do today?</p><p>如果今天是你生命最后一天，你想做你今天本来要做的事吗？</p></li><li><p>death is very likely the single best invention of life. it is life’s change agent. it clears out the old to make way for the new.<br>死亡很可能是唯一的、最好的生命创造。它是生命的促变者。它送走老一代，给新一代开出道路。</p></li><li>if you do something and it turns out pretty good, then you should go do something else wonderful, not dwell on it for too long. just figure out what’s next.<br>你如果出色地完成了某件事，那你应该再做一些其他的精彩事儿。不要在前一件事上徘徊太久，想想接下来该做什么。</li><li>there’s a phrase in buddhism, ‘beginner’s mind.’ it’s wonderful to have a beginner’s mind.<br>佛教中有一句话：初学者的心态；拥有初学者的心态是件了不起的事情。</li><li>being the richest man in the cemetery doesn’t matter to me … going to bed at night saying we’ve done something wonderful… that’s what matters to me.<br>是否能成为墓地里最富有的人，对我而言无足轻重。重要的是，当我晚上睡觉时，我可以说：我们今天完成了一些美妙的事。</li><li>remembering that you are going to die is the best way i know to avoid the trap of thinking you have something to lose.<br>谨记自己总会死去，是让自己避免陷入“人生有所失”思考的最佳方法。</li><li>your time is limited, so don’t waste it living someone else’s life.…don’t let the noise of others’ opinions drown out your own inner voice.<br>你的时间有限，不要浪费于重复别人的生活。不要让别人的观点淹没了你内心的声音。</li><li>have the courage to follow your heart and intuition. they somehow already know what you truly want to become. everything else is secondary.<br>要有勇气追随心声，听从直觉–它们在某种程度上知道你想成为的样子。其他事情都是其次的。</li><li>life is brief, and then you die, you know?<br>人生短暂，过着过着你就没了，明白嚒？</li><li>you can’t just ask customers what they want and then try to give that to them. by the time you get it built, they’ll want something new.<br>你不能只问顾客要什么，然后想法子给他们做什么。等你做出来，他们已经另有新欢了。<br><code>ps: 网络上流传着这样一句话，或许表达了人们对史蒂夫-乔布斯最深切的肯定：three apples changed the world.the first one seduced eve.the second one awakened newton. the third one was in the hands of steve jobs.三个苹果改变了世界。第一个诱惑了夏娃，第二个砸醒了牛顿，第三个曾在史蒂夫-乔布斯的掌握。</code>　</li><li>innovation distinguishes between a leader and a follower.<br>领袖和跟风者的区别就在于创新。</li><li>innovation has no limits. the only limit is your imagination. it’s time for you to begin thinking out of the box. if you are involved in a growing industry, think of ways to become moreefficient; more customer friendly; and easier to do business with. if you are involved in a shrinking industry – get out of it quick and change before you become obsolete; out of work; or out of business. and remember that procrastination is not an option here. start innovating now!<br>创新无极限！只要敢想，没有什么不可能，立即跳出思维的框框吧。如果你正处于一个上升的朝阳行业，那么尝试去寻找更有效的解决方案：更招消费者喜爱、更简洁的商业模式。如果你处于一个日渐萎缩的行业，那么赶紧在自己变得跟不上时代之前抽身而出，去换个工作或者转换行业。不要拖延，立刻开始创新！</li><li>be a yardstick of quality. some people aren’t used to an environment where excellence is expected.<br>成为卓越的代名词，很多人并不能适合需要杰出素质的环境。</li><li>there is no shortcut to excellence. you will have to make the commitment to make excellence your priority. use your talents, abilities, and skills in the best way possible and get ahead of others by giving that little extra. live by a higher standard and pay attention to the details that really do make the difference. excellence is not difficult - simply decide right now to give it your best shot - and you will be amazed with what life gives you back.<br>成功没有捷径。你必须把卓越转变成你身上的一个特质。最大限度地发挥你的天赋、才能、技巧，把其他所有人甩在你后面。高标准严格自己，把注意力集中在那些将会改变一切的细节上。变得卓越并不艰难——从现在开始尽自己最大能力去做——你会发现生活将给你惊人的回报。</li><li>the only way to do great work is to love what you do. if you haven’t found it yet, keep looking. don’t settle. as with all matters of the heart, you’ll know when you find it.<br>成就一番伟业的唯一途径就是热爱自己的事业。如果你还没能找到让自己热爱的事业，继续寻找，不要放弃。跟随自己的心，总有一天你会找到的。</li><li>i’ve got it down to four words: “do what you love.” seek out an occupation that gives you a sense of meaning, direction and satisfaction in life. having a sense of purpose and striving towards goals gives life meaning, direction and satisfaction. it not only contributes to health and longevity, but also makes you feel better in difficult times. do you jump out of bed on monday mornings and look forward to the work week? if the answer is ‘no’, keep looking, you’ll know when you find it.<br>“我把这段话浓缩为：“做我所爱”。去寻找一个能给你的生命带来意义、价值和让你感觉充实的事业。拥有使命感和目标感才能给生命带来意义、价值和充实。这不仅对你的健康和寿命有益处，而且即使在你处于困境的时候你也会感觉良好。在每周一的早上，你能不能利索的爬起来并且对工作日充满期待？如果不能，那么你得重新去寻找。你会感觉得到你是不是真的找到了。</li><li>you know, we don’t grow most of the food we eat. we wear clothes other people make. we speak a language that other people developed. we use a mathematics that other people evolved… i mean, we’re constantly taking things. it’s a wonderful, ecstatic feeling to create something that puts it back in the pool of human experience and knowledge.<br>并不是每个人都需要种植自己的粮食，也不是每个人都需要做自己穿的衣服，我们说着别人发明的语言，使用别人发明的数学……我们一直在使用别人的成果。使用人类的已有经验和知识来进行发明创造是一件很了不起的事情。”</li><li>live in a way that is ethically responsible. try to make a difference in this world and contribute to the higher good. you’ll find it gives more meaning to your life and it’s a great antidote to boredom. there is always so much to be done. and talk to others about what you are doing. don’t preach or be self-righteous, or fanatical about it, that just puts people off, but at the same time, don’t be shy about setting an example, and use opportunities that arise to let others know what you are doing.<br>带着责任感生活，尝试为这个世界带来点有意义的事情，为更高尚的事情做点贡献。这样你会发现生活更加有意义，生命不再枯燥。需要我们去做的事情很多。告诉其 他人你的计划，不要鼓吹，也不要自以为是，更不能盲目狂热，那样只会把人们吓跑，当然，你也不要害怕成为榜样，要抓住出头的机会让人们知道你的所作所为。</li><li>there’s a phrase in buddhism, ‘beginner’s mind.’ it’s wonderful to have a beginner’s mind.<br>佛教中有一句话：初学者的心态；拥有初学者的心态是件了不起的事情。</li><li>it is the kind of mind that can see things as they are, which step by step and in a flash can realize the original nature of everything. beginner’s mind is zen practice in action. it is the mind that is innocent of preconceptions and expectations, judgements and prejudices. think of beginner’s mind as the mind that faces life like a small child, full of curiosity and wonder and amazement.<br>不要迷惑于表象而要洞察事务的本质，初学者的心态是行动派的禅宗。所谓初学者的心态是指，不要无端猜测、不要期望、不要武断也不要偏见。初学者的心态正如一个新生儿面对这个世界一样，永远充满好奇、求知欲、赞叹。</li><li>we think basically you watch television to turn your brain off, and you work on your computer when you want to turn your brain on.<br>我们认为看电视的时候，人的大脑基本停止工作，打开电脑的时候，大脑才开始运转。</li><li>reams of academic studies over the decades have amply confirmed television’s pernicious mental and moral influences. and most tv watchers know that their habit is mind-numbing and wasteful, but still spend most of their time in front of that box. so turn your tv off and save some brain cells. but be cautious, you can turn your brain off by using a computer also. try and have an intelligent conversation with someone who plays first person shooters for eight hours a day. or auto race games, or role-playing games.<br>过去十年中，大量的理论研究表明，电视对人的精神和心智是有害的。大多数电视观众都知道这个坏习惯会浪费时间并且使大脑变得迟钝，但是他们还是选择呆在电视机前面。关掉电视吧，给自己省点脑细胞。还有，电脑也会让你的大脑秀逗，不信的话你去跟那些一天花8小时玩第一视角设计游戏、汽车拉力游戏、角色扮演游戏的人聊聊看，你也会得出这个结论的。</li><li>i’m the only person i know that’s lost a quarter of a billion dollars in one year… it’s very character-building.<br>我是我所知道的唯一一个在一年中失去2.5亿美元的人……这对我的成长很有帮助。</li><li>don’t equate making mistakes with being a mistake. there is no such thing as a successful person who has not failed or made mistakes, there are successful people who made mistakes and changed their lives or performance in response to them, and so got it right the next time. they viewed mistakes as warnings rather than signs of hopeless inadequacy. never making a mistake means never living life to the full.<br>范错误不等于错误。从来没有哪个成功的人没有失败过或者犯过错误，相反，成功的人都是犯了错误之后，做出改正，然后下次就不会再错了，他们把错误当成一个警告而不是万劫不复的失败。从不犯错意味着从来没有真正活过。</li><li>i would trade all of my technology for an afternoon with socrates.<br>我愿意用我所有的科技去换取和苏格拉底相处的一个下午。<br>over the last decade, numerous books featuring lessons from historical figures have appeared on the shelves of bookstores around the world. and socrates stands with leonardo da vinci, nicholas copernicus, charles darwin and albert einstein as a beacon of inspiration for independent thinkers. but he came first. cicero said of socrates that, “he called philosophy down from the skies and into the lives of men.” so use socrates’ principles in your life, your work, your learning, and your relationships. it’s not about socrates, it’s really about you, and how you can bring more truth, beauty and goodness into your life everyday.</li><li>十几年来，世界各地的书店里涌现出海量的关于历史人物的书籍。这些人物包括苏格拉底、达芬奇、哥白尼、达尔文以及爱因斯坦，他们被称为人们灵感的灯塔，而苏格拉底排在第一位。西塞罗评价苏格拉底说：“他把哲学从高高在上的学科变得与人休戚相关。”把苏格拉底的原则运用到你的生活、工作、学习以及人及关系上吧，这不是关于苏格拉底，这是关于你自己，以及关于你如何给你每天的生活带来更多的真善美。</li><li>we’re here to put a dent in the universe. otherwise why else even be here?<br>活着就是为了改变世界，难道还有其他原因吗？</li><li>did you know that you have big things to accomplish in life? and did you know that those big things are getting rather dusty while you pour yourself another cup of coffee, and decide to mull things over rather than do them? we were all born with a gift to give in life, one which informs all of our desires, interests, passions and curiosities. this gift is, in fact, our purpose. and you don’t need permission to decide your own purpose. no boss, teacher, parent, priest or other authority can decide this for you. just find that unique purpose.<br>你是否知道在你的生命中，有什么使命是一定要达成的？你知不知道在你喝一杯咖啡或者做些无意义事情的时候，这些使命又蒙上了一层灰尘？我们生来就随身带着一件东西，这件东西指示着我们的渴望、兴趣、热情以及好奇心，这就是使命。你不需要任何权威来评断你的使命，没有任何老板、老师、父母、牧师以及任何权威可以帮你来决定。你需要靠你自己来寻找这个独特的使命。</li><li>your time is limited, so don’t waste it living someone else’s life. don’t be trapped by dogma - which is living with the results of other people’s thinking. don’t let the noise of other’s opinions drown out your own inner voice. and most important, have the courage to follow your heart and intuition. they somehow already know what you truly want to become. everything else is secondary.<br>你的时间有限，所以不要为别人而活。不要被教条所限，不要活在别人的观念里。不要让别人的意见左右自己内心的声音。最重要的是，勇敢的去追随自己的心灵和直觉，只有自己的心灵和直觉才知道你自己的真实想法，其他一切都是次要。</li><li>are you tired of living someone else’s dream? no doubt, it’s your life and you have every right to spend it in your own individual way without any hurdles or barriers from others. give yourself a chance to nurture your creative qualities in a fear-free and pressure-free climate. live a life that you choose and be your own boss.<br>each lesson might be difficult to integrate into your life at first, but if you ease your way into each lesson, one at a time, you’ll notice an immediate improvement in your overall performance. so go ahead, give them a try.<br>你是否已经厌倦了为别人而活？不要犹豫，这是你的生活，你拥有绝对的自主权来决定如何生活，不要被其他人的所作所为所束缚。给自己一个培养自己创造力的机会，不要害怕，不要担心。过自己选择的生活，做自己的老板！</li></ul><p>原文链接：<a href="http://www.diyifanwen.com/tool/yingyumingyan/1251517193541576.htm" target="_blank" rel="external">乔布斯名言英文版</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;伟大的艺术品不必追随潮流，他本身就能引领潮流。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;市场总是错的。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;自由从何而来？从自信来，而自信则是从自律来！先学会克制自己，用严格的日程表控制生活，才能在这种自律中不断磨练出自信。自信是对
-      
-    
-    </summary>
-    
-      <category term="世界观" scheme="http://yoursite.com/categories/%E4%B8%96%E7%95%8C%E8%A7%82/"/>
-    
-    
-      <category term="乔布斯" scheme="http://yoursite.com/tags/%E4%B9%94%E5%B8%83%E6%96%AF/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo博客（一）搭建</title>
     <link href="http://yoursite.com/2017/11/14/hexo_build/"/>
     <id>http://yoursite.com/2017/11/14/hexo_build/</id>
     <published>2017-11-14T03:27:10.000Z</published>
-    <updated>2017-12-12T07:39:42.390Z</updated>
+    <updated>2017-12-12T07:47:54.814Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Hexo简介与安装"><a href="#Hexo简介与安装" class="headerlink" title="Hexo简介与安装"></a>Hexo简介与安装</h2><p><strong>1. 什么是Hexo？</strong><br>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p><p><strong>2. 安装</strong><br>参照 <a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="external">官方文档</a> 完成相关安装步骤</p><p><strong>3. 初始化</strong><br>新建一个文件夹，比如blog，作为本地博客文件库<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 初始化</span><br><span class="line">$ cd blog</span><br><span class="line">$ hexo init</span><br></pre></td></tr></table></figure></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 生成静态界面</span><br><span class="line">$ hexo g（等同于hexo generate）</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 启动服务</span><br><span class="line">$ hexo s（等同于hexo server）</span><br></pre></td></tr></table></figure><p>浏览器输入 <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000</a> 预览</p><h2 id="将本地Hexo博客同步到Github"><a href="#将本地Hexo博客同步到Github" class="headerlink" title="将本地Hexo博客同步到Github"></a>将本地Hexo博客同步到Github</h2><p><strong>1. 注册一个Github账号</strong><br>这里不做演示</p><p><strong>2. 创建Repository</strong><br>Repository的名字即为你博客的域名，命名规则是：<code>Github用户名.github.io</code>，比如Github用户名是<code>iamsea</code>，那仓库名是<code>iamsea.github.io</code>，创建后进入项目设置，会看到<br><img src="http://upload-images.jianshu.io/upload_images/2569188-e72c6ee27ec00264.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="成功创建博客仓库.png"></p><p><strong>3. Github添加SSH key</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 创建一个SSH key</span><br><span class="line">$ ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</span><br></pre></td></tr></table></figure><p><img src="http://upload-images.jianshu.io/upload_images/2569188-78d31c96b826a7f7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="生成SSH key.png"><br>注: SSH key既是所生成id_rsa文件的全部内容，详细可以参考<a href="http://blog.csdn.net/binyao02123202/article/details/20130891" target="_blank" rel="external">这里</a></p><p>添加SSH key至Github<br><img src="http://upload-images.jianshu.io/upload_images/2569188-71362e5065ab9b3b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="添加SSH key.png"></p><p><strong>4. 修改本地站点配置</strong><br>打开<code>blog/_config.yml</code>文件，既站点配置文件，修改deploy字段<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">     type: git</span><br><span class="line">     repo: https://github.com/iamsea/iamsea.github.io.git  #你的博客Repository链接</span><br><span class="line">     branch: master</span><br></pre></td></tr></table></figure></p><p><strong>5. 提交到Gighub</strong><br>安装hexo-deployer-git插件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p><p>生成静态界面<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">或</span><br><span class="line">$ hexo generata</span><br></pre></td></tr></table></figure></p><p>提交部署到github<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br><span class="line">或</span><br><span class="line">$ 等同于hexo deploy</span><br></pre></td></tr></table></figure></p><p>合并的命令为<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g -d</span><br></pre></td></tr></table></figure></p><p>注：看到 <code>Deploy done: git</code>表示成功提交</p><p>至此，本地Hexo博客已经布署到Github了<br>浏览器输入<code>你的Github用户名.github.io</code>预览</p><h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><ul><li><a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="external">官方文档</a><ul><li><a href="https://zorpz.github.io/blog/hexo%E6%90%AD%E5%BB%BA%E7%AE%80%E4%BB%8B.html" target="_blank" rel="external">hexo搭建简介</a></li></ul></li></ul>]]></content>
     
